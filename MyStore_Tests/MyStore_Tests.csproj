@@ -25,4 +25,9 @@
     <None Remove="Selenium.WebDriver" />
     <None Remove="Selenium.WebDriver.ChromeDriver" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="UnitTest1.cs" />
+    <Compile Remove="UnitTest2.cs" />
+  </ItemGroup>
 </Project>
